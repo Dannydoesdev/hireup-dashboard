@@ -708,38 +708,18 @@ body {
 
 
 
-/* When there is no space between the selectors, it means both selectors have to be on the one element */
-/* We are doing this so we can reuse the .dropdown-menu properties on all menus but position them differently */
+/* Unused dropdown menu */
 .dropdown-menu {
     z-index: 2;
     /* position: fixed;
     right: 0; */
     text-align: right;
     max-width: 200px;
-    /* position: absolute;
-    right: 0; */
-    /* position: absolute;
-    left: -500px; */
-    /* position: fixed;
-    left: 0;
-    top: 0;
-} */
+   
+}
   
-/* .move {
-    margin: 200px;
-} */
   
-  /* .dropdown-menu#menu-2 {
-    left: 290px;
-    min-width: 400px; /* to stretch the menu to match slack */
-  }
-  
-  /* .dropdown-menu#menu-3 {
-    left: 390px;
-    min-width: 400px; /* to stretch the menu to match slack */
-  } */ */
-  
-  .menu-header {
+.menu-header {
     font-size: 12px;
     /* margin: 0; */
     /* padding: 0 10px 8px 10px; */
@@ -753,11 +733,6 @@ body {
     text-align: right;
   }
 
-  /* #menu-2 .menu-item-list, 
-  #menu-3 .menu-item-list {
-    column-count: 2;
-    column-gap: 20px;
-  } */
   
   
   .menu-item-list li a,
