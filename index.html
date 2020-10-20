@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="//db.onlinewebfonts.com/c/1a204cd3ccb7f25e06faa548e6251a59?family=Fabriga" rel="stylesheet"
         type="text/css" />
     <link href="//db.onlinewebfonts.com/c/582590ffcc918623fde3bf6c123d36ba?family=Fabriga" rel="stylesheet"
@@ -35,16 +35,69 @@
                     <li class="menu-1-button">Dashboard</li>
                     <li class="menu-2-button">Search</li>
                     <li class="menu-2-button">Bookings</li>
-                    <li class="menu-2-button">Job Board</li>
-                    <li class="menu-2-button">Hireup Learning</li>
+                    <li class="menu-2-button menu-close-sml">Job Board</li>
+                    <li class="menu-2-button menu-close-sml">Hireup Learning</li>
                 </ul>
-                <div class="corner-nav main-nav">
+                <div class="corner-nav main-nav dropdown" id="dropdown-trigger">
                     <img src="img/message-user-team-and-messages.png">
                     <img src="img/main-dropdown.png">
+                    <!-- <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div> -->
                 </div>
+
+
+                <!-- <aside class="dropdown-menu" id="menu-1">
+                        <h2 class="menu-header">Your Preferences</h2>
+                        <ul class="menu-item-list">
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Preferences</a></li>
+                            <li><a href="#">Log out</a></li>
+                        </ul>
+                    </aside> -->
+
+
             </div>
         </div>
+
+        </div>
+        </div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-sm-9 always-hide">
+
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <aside class="dropdown-menu" id="menu-1">
+                    <h2 class="menu-header">Your Preferences</h2>
+                    <ul class="menu-item-list">
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Finance</a></li>
+                        <li><a href="#">Preferences</a></li>
+                        <li><a href="#">Log out</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div> -->
     </nav>
+    <!-- <aside class="dropdown-menu" id="menu-1">
+        <h2 class="menu-header">Your Preferences</h2>
+        <ul class="menu-item-list">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="#">Preferences</a></li>
+            <li><a href="#">Log out</a></li>
+        </ul>
+    </aside> -->
 </header>
 
 <body>
@@ -84,8 +137,8 @@
                 <div class="your-team-full">
                     <h2>Your team</h2>
                     <p>The people you support are added to your team. <span class="mobile-only"
-                            id="tap-to-open-team">Tap to
-                            slide down ⇩</span>
+                            id="tap-to-open-team">Tap here to
+                            slide open/closed</span>
                     </p>
                     <ul class="your-team border">
                         <li class="your-team-quicklinks">
@@ -110,43 +163,43 @@
                             </div>
 
 
-                            <div class="border">
+                            <div class="">
                                 <img class="msg-team" src="img/message-user-team-and-messages.png">
                                 <img src="img/3-dots-team-left-column.png">
                             </div>
 
                         </li>
-                        <li class="your-team-quicklinks border">
+                        <li class="your-team-quicklinks ">
 
-                            <div class="border">
+                            <div class="">
                                 <img src="img/your-team-pic2.png">
                                 Andy E
                             </div>
 
 
-                            <div class="border">
+                            <div class="">
                                 <img class="msg-team" src="img/message-user-team-and-messages.png">
                                 <img src="img/3-dots-team-left-column.png">
                             </div>
 
                         </li>
-                        <li class="your-team-quicklinks border">
+                        <li class="your-team-quicklinks">
 
-                            <div class="border">
+                            <div class="">
                                 <img src="img/your-team-pic3.png">
                                 Simon M
                             </div>
 
 
-                            <div class="border">
+                            <div class="">
                                 <img class="msg-team" src="img/message-user-team-and-messages.png">
                                 <img src="img/3-dots-team-left-column.png">
                             </div>
 
                         </li>
-                        <li class="your-team-quicklinks border">
+                        <li class="your-team-quicklinks">
 
-                            <div class="border">
+                            <div class="">
                                 <img src="img/your-team-pic4.png">
                                 Jenny S
                             </div>
@@ -165,9 +218,8 @@
             <div class="col-md-6">
                 <div class="your-bookings">
                     <h2>Your bookings</h2>
-                    <p>All upcoming bookings. <span class="mobile-only" id="tap-to-open-bookings">Tap to
-                            slide down ⇩</span>
-                        <!-- <img class="booking-demo-pic" src="img/booking-panel-1.png"> -->
+                    <p>All upcoming bookings. <span class="mobile-only" id="tap-to-open-bookings">Tap here to
+                            slide open/closed</span>
                     <div class="bookings-card border">
                         <img class="bookings-card-profile-pic" src="img/your-bookings-profile-pic1.png">
                         <div class="bookings-card-content">
@@ -183,8 +235,7 @@
                             <div>
                                 <button class="blue-button">Review</button>
                                 <button class="white-button">Edit</button>
-                                <!-- <img src="img/review-booking-center-column.png">
-                            <img src="img/edit-booking-center-column.png"> -->
+
                             </div>
 
                         </div>
@@ -197,12 +248,12 @@
                         <p>Weekly/Monthly Schedule</p>
                     </div>
                 </div>
-                <!-- <h2>Your availability</h2> -->
+
                 <div class="your-jobs">
                     <h2>Your jobs</h2>
-                    <p>Jobs you created.</p>
+                    <p id="tap-to-open-jobs">Jobs you created.</p>
                     <div class="jobs-you-created">
-                        <ul>
+                        <ul id="jobs-created-toggle">
                             <li>I can help you improve your cooking skills in quarantine
                                 <br><span>Posted 30 minutes ago</span>
                             </li>
@@ -225,10 +276,8 @@
             </div>
             <div class="col-md-3 your-info">
                 <h2>Your info</h2>
-                <p>Information just for you, from Hireup. <span class="mobile-only" id="tap-to-open-info">Tap to
-                        slide down ⇩</span>
-                <div class="">
-                </div>
+                <p>Information just for you, from Hireup. <span class="mobile-only" id="tap-to-open-info">Tap here to
+                        slide open/closed</span>
                 <div class="promo-area border">
                     <img src="img/info-icon-right-column-banner.png">
                     <h4>Hireup and COVID-19</h4>
@@ -250,98 +299,178 @@
         </div>
     </div>
 
-    <!-- <section class="mobile-body">
-        <h1>Home</h1>
-
-        <section class="notice level1">
-
-        </section>
-
-        <section class="mobile-quicklinks">
-            <div>
-                <img src="img/home.png">
-                <h4>Home</h4>
-            </div>
-            <div>
-                <img src="img/bookings.png">
-                <h4>Your bookings</h4>
-            </div>
-            <div>
-                <img src="img/team.png">
-                <h4>Your team</h4>
-                
-                <div>
-                    <img src="img/home.png">
-                    <h4>Your jobs</h4>
-                </div>
-        </section>
-
-        <section class="notice level2">
-
-        </section>
-
-        <section class="notice level2">
-
-        </section>
-
-        <section class="notice level3">
-
-        </section>
-
-        <section class="mobile-feed">
-            <h2>Your week</h2>
-            <h2>Unread messages</h2>
-            <h2>Recommended for you</h2>
-        </section>
-
-        <section class="notice level4">
-
-        </section>
-
-        <section class="notice level4">
-
-        </section>
-    </section>
-
-    <footer class="main-footer">
-        <div>
-            <img class="footer-logo" src="img/logo.png">
-        </div> -->
-
-    <div class="footer-links">
-        This is a footer yo
-    </div>
-    </footer>
-
-    <footer class="mobile-footer">
-        <div>
-            <img class="footer-logo" src="img/logo.png">
-        </div>
-
+    <!-- <footer>
         <div class="footer-links">
-
+            This is a footer yo
         </div>
-
-    </footer>
-
-
-
-
-
-
-
-
+    </footer> -->
+    <aside class="dropdown-menu" id="menu-1">
+        <h2 class="menu-header">Your Preferences</h2>
+        <ul class="menu-item-list">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="#">Preferences</a></li>
+            <li><a href="#">Log out</a></li>
+        </ul>
+    </aside>
 
     <aside class="side-menu-position side-menu-design" id="side-menu">
         <header class="side-menu-header">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/slack.svg" alt="Slack logo">
+            <div>
+                <img src="img/hu-icon.jpeg" id="hamburger-icon" alt="Hireup logo">
+                <h2>there</h2>
+            </div>
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/x.svg" alt="Close this menu" id="menu-close">
         </header>
         <ul class="side-menu-content">
-            <li>Why Slack?</li>
-            <li>Pricing</li>
+            <li>Why Hireup?</li>
+            <li>Hireup Learning</li>
             <li>About Us</li>
-            <li class="side-menu-workspace">Your Workspaces</li>
-            <li class="side-menu-download">Download Slack</li>
+            <li class="side-menu-workspace">Jobs Board</li>
+            <li class="side-menu-download">Find a Support Worker</li>
         </ul>
     </aside>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- Brand Colour
+For use in the brand only, this blue is the recognisable colour of the Hireup brand.
+
+Brand Blue
+
+HEX #00C2DA
+
+RGB 0, 194, 218
+
+CMYK 77, 0, 16, 0
+
+PMS 2199
+
+Text Colours
+These colours are designed for high contrast, readable text. Navy or Gray text is AAA accessible on white, or any of our background colours.  These can also be inverted, so white text is AAA accessible on Navy or Gray backgrounds.
+
+Navy
+
+HEX #003453
+
+RGB 0, 52, 83
+
+CMYK 100, 37, 0, 67
+
+PMS 282
+
+Gray
+
+HEX #495B60
+
+RGB 73, 91, 96
+
+CMYK 24, 5, 0, 62
+
+PMS 431
+
+White
+
+HEX #FFFFFF
+
+RGB 255, 255, 255
+
+CMYK 0, 0, 0, 0
+
+PMS White
+
+Black
+
+(#000) can be used as an alternative text colour in board papers, contracts or legal documentation, but never for public release.
+
+Supporting Colours
+Blue is our primary colour. Add a splash of yellow to help. Don't write text in these colours, they're not strong enough to be legible to all users.
+
+Light Yellow
+
+HEX #FDF8C2
+
+RGB 253, 248, 194
+
+CMYK 2, 0, 29, 0
+
+Yellow
+
+HEX #FBF5AC
+
+RGB 251, 245, 172
+
+CMYK 3, 0, 40, 0
+
+Light Blue
+
+HEX #CFF5FA
+
+RGB 207, 245, 250
+
+CMYK 16, 0, 3, 0
+
+Blue
+
+HEX #AFEFF7
+
+RGB 175, 239, 247
+
+CMYK 27, 0, 6, 0
+
+Light Gray
+
+HEX #F1F1F1
+
+RGB 241, 241, 241
+
+CMYK 4, 3, 3, 0
+
+Interface Colours
+UI Colours
+Hireup also uses extra colours to make the web interface. Only use Navy text on these backgrounds:
+
+Gray
+
+HEX #F1F4F8
+
+RGB 241, 244, 248
+
+Outline Gray
+
+HEX #AEAEAE
+
+RGB 174, 174, 174
+
+Button Gray
+
+HEX #E0E1E2
+
+RGB 224, 225, 226
+
+Rollover Blue
+
+HEX #F3F9FF
+
+RGB 243, 249, 255
+
+Green
+
+HEX #17653B
+
+RGB 23, 101, 59
+
+Red
+
+HEX #B40B00
+
+RGB 180, 11, 0 -->

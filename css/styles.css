@@ -1,12 +1,4 @@
-/* h1 {
-    
-} */
 
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 /* 
     yellow: #FEFCE5
@@ -23,14 +15,12 @@
 
  p, li {
     color: #0C3354;
-    /* font-family: 'Fabriga', 'Times New Roman', Times, serif; */
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #0C3354;
     font-family: 'Fabriga-bold';
     font-style: none;
-    /* font-weight: 300; */
 }
 
 h2 {
@@ -54,8 +44,6 @@ body {
 }
 
 .logo {
-    /* width: 20%;
-    height: 70%; */
     width: 120px;
     height: 40px;
 }
@@ -76,13 +64,13 @@ body {
     display: none;
 }
 
-/* .border {
-    border: solid 1px black;
-} */
-
 .mobile-nav-button {
     width: 10%;
     height: 30%;
+}
+
+.always-hide {
+    opacity: 0;
 }
 
 @media (min-width: 768px) {
@@ -91,7 +79,6 @@ body {
       justify-content: space-between;
       align-items: center;
       height: 50px;
-      /* border:1px black solid; */
     }
 
     .menu-1-button {
@@ -104,10 +91,6 @@ body {
         background: #EBFDFB;
         border-bottom: #0C3354 solid 3px;
     }
-
-    /* body {
-        background-color: green;
-    } */
 
     .not-mobile{
         display: block;
@@ -135,23 +118,13 @@ body {
     }
 
     .corner-nav{
-    /* padding: 0px 20px; */
         margin: 0;
     }
 
     .corner-nav img{
         height:60%;
         margin: 0;
-        /* padding: 0px 20px; */
     }
-
-    /* .main-banner img{
-        margin-left:-20px;
-        width: 100vw;
-        height: 80px;
-    } */
-
-   
 
     #banner-close:hover {
         cursor: pointer;
@@ -210,22 +183,8 @@ body {
         display: none;
     }
     
-    /* .row div {
-        height: 50px;
-        border: 1px solid black;
-      } */
   }
 
-
-  
-
- /* .main-body {
-    display: none;
-}
-
-.main-body-new {
-    display: none;
-}  */
 
 .your-team-full {
     margin-right: 10px;
@@ -245,10 +204,6 @@ body {
 
 
 .your-team img {
-    /* padding-left:5px; */
-    /* margin-left:30px;
-    margin-right:-35px; */
-    
     width: 25px;
     height: 25px;
 }
@@ -264,37 +219,31 @@ body {
 
 .main-body {
       display:flex;
-      /* justify-content: space-around;
-      align-items: center; */
+
 }
 
 .main-body-new {
         display: block;
-        /* margin-top: 20px; */
         padding-top: 20px;
         background-color: #F8F9F9;
 }
 
 .schedule {
-        /* width: 90%; */
-        max-width: 800px;
-        height: 50px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        text-align: center;
+    max-width: 800px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
        
 }
 
 .schedule p {
-    /* line-height:80%; */
     margin: 10px;
 }
 
 .your-week {
-    /* margin: 10px; */
     margin-left: 20px;
-    /* max-width: 900px; */
     margin-top: 15px;
     margin-right: 20px;
 }
@@ -307,24 +256,23 @@ body {
 }
 
 .jobs-you-created {
-    /* border: 1px lightgrey solid; */
     background-color: white;
-    /* padding-right: 10px; */
-    /* width: 90%; */
     max-width: 800px;
-    /* height: 50px; */
-    background-color: white;
-    /* display: flex;
-    align-items: center;
-    text-align: center; */
     border: 1px lightgrey solid;
 }
 
 .jobs-you-created li {
     list-style: none;
-    padding: 5px 10px;
+    padding: 15px 10px;
     font-weight: bolder;
+    margin-left: -35px;
     border-bottom: 0.5px lightgrey solid;
+}
+
+.jobs-you-created li:hover {
+    background-color: #00C2DA;
+    color: white;
+
 }
 
 .jobs-you-created span {
@@ -359,179 +307,165 @@ body {
 .mobile-quicklinks div {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+
 }
 
-/* @media (min-width: 768px) { */
-    .main-quicklinks {
+
+.main-quicklinks {
       display: flex;
       flex-direction:column;
-      /* justify-content: space-around; */
+
       align-items: flex-start;
-      /* height: 300px;
-      width: 300px; */
       position: fixed;
       left: 0;
     }
 
-    /* .your-bookings img {
-        width: 100%;
-    } */
 
-    .your-bookings {
-        margin-left: 20px;
-    }
+.your-bookings {
+    margin-left: 20px;
+}
 
-    .bookings-card {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: white;
-        /* width: 95%; */
-        /* margin: 10px; */
-        margin-top: 20px;
-        /* margin-left: 10px; */
-        max-width: 800px;
-        /* min-width: 400px; */
-        margin-right: 20px;
-    }
+.bookings-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
 
-    .bookings-card h3 {
-        font-size: 18px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-right: 20px;
+}
 
-    }
+.bookings-card h3 {
+    font-size: 18px;
 
-    .bookings-card-profile-pic {
-        height: 160px;
-        width: 160px;
-        /* height: 25%;
-        width: 25%; */
-        /* margin-left:30px;
-        margin-right:-50px; */
-    }
+}
 
-    .booking-demo-pic {
-        width: 100%;
-    }
+.bookings-card-profile-pic {
+    height: 160px;
+    width: 160px;
+}
 
-    .bookings-bits {
-        display: flex;
-        align-items: center;
-    }
+.booking-demo-pic {
+    width: 100%;
+}
 
-    .bookings-bits img {
-        height: 25px;
-        width: 25px;
-        
-    }
+.bookings-bits {
+    display: flex;
+    align-items: center;
+}
 
-    .bookings-bits p {
-        padding-top: 12px;
-        padding-left: 5px;
-    }
-
-    .booking-card-price-buttons {
-        padding: 0px 20px;
-    }
-
-    .booking-card-price-buttons img {
-        height: 40px;
-        width: 80px;
-    }
-
-    .booking-card-price-buttons h3 {
-        text-align: right;
-    }
-
-    .booking-card-price-buttons button {
-        width: 70px;
-        margin-top: 10px;
-        margin-left: 8px;
-        padding: 4px 5px;
-        font-size: 12px;
-        border-radius: 5px;
-    }
-
-    .booking-card-price-buttons div {
-        display: flex;
-    }
-
-    .bookings-bits p{
-        font-size: 13px;
-    }
-
-    .your-info img {
-        width: 100%;
-    }
-
-    .main-quicklinks img {
-        height: 20%;
-        width: 20%;
-    }
-
-    .main-quicklinks div {
-        display: flex;
-    }
-
-    .mobile-quicklinks {
-        display:none;
-    }
-
-    .promo-area {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        text-align: left;
-        position: relative;
-        padding: 20px;
-        margin: 10px 0px;
-        background-color: white;
-    }
-
-    .promo-area img {
-        /* height: 15%;
-        width: 15%; */
-        height: 40px;
-        width: 40px;
-        /* justify-self: flex-start;
-        margin-left: -200px; */
-        /* position: absolute;
-        left: 0;
-        top: 0; */
-    }
-
-    .promo-area h4 {
-        text-align: left;
-        /* margin-left: -60px; */
-    }
+.bookings-bits img {
+    height: 25px;
+    width: 25px;
     
-    .promo-area button{
-        width: 100%;
-        padding: 5px 20px;
-        border-radius: 8px;
-        margin: 3px 0px;
-        font-size: 13px;
-    }
+}
 
-    .blue-button {
-        background-color: #0C3354;
-        color: white;
-    }
+.bookings-bits p {
+    padding-top: 12px;
+    padding-left: 5px;
+}
 
-    .white-button {
-        color: #0C3354;
-        background-color: white;
-        border: lightgray 1px solid;
-    }
-    
-    /* h2 {
-        font-size: 5px;
-    } */
+.booking-card-price-buttons {
+    padding: 0px 20px;
+}
+
+.booking-card-price-buttons img {
+    height: 40px;
+    width: 80px;
+}
+
+.booking-card-price-buttons h3 {
+    text-align: right;
+}
+
+.booking-card-price-buttons button {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 4px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.booking-card-price-buttons div {
+    display: flex;
+}
+
+.bookings-bits p{
+    font-size: 13px;
+}
+
+.your-info img {
+    width: 100%;
+}
+
+.main-quicklinks img {
+    height: 20%;
+    width: 20%;
+}
+
+.main-quicklinks div {
+    display: flex;
+}
+
+.mobile-quicklinks {
+    display:none;
+}
+
+.promo-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    position: relative;
+    padding: 20px;
+    margin: 10px 0px;
+    background-color: white;
+}
+
+.promo-area img {
+    height: 40px;
+    width: 40px;
+}
+
+.promo-area h4 {
+    text-align: left;
+}
+
+.promo-area button{
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin: 3px 0px;
+    font-size: 13px;
+}
+
+.blue-button {
+    background-color: #0C3354;
+    color: white;
+}
+
+.blue-button:hover {
+    background-color: white;
+    color: #0C3354;
+}
+
+.white-button:hover {
+    color: white;
+    background-color: #0C3354;
+    border: lightgray 1px solid;
+}
+
+.white-button {
+    color: #0C3354;
+    background-color: white;
+    border: lightgray 1px solid;
+}
 
 
-
-     @media (max-width: 1150px) {
+@media (max-width: 1150px) {
     .bookings-card-profile-pic {
         display: none;
     }
@@ -544,6 +478,10 @@ body {
     .banner-buttons {
         display: none;
     }
+
+    /* .your-info {
+        display: none;
+    } */
 
     .banner-main-content {
         justify-content: space-around;
@@ -558,6 +496,10 @@ body {
     }
 
     .msg-team {
+        display: none;
+    }
+
+    .menu-close-sml {
         display: none;
     }
 
@@ -581,6 +523,9 @@ body {
     .your-info {
         margin-left: 20px;
         margin-top: 15px;
+        border-top: 1px lightgrey solid;
+        padding-top: 15px;
+        margin-right: 20px;
     }
 
     footer {
@@ -589,6 +534,22 @@ body {
 
     .your-team-full {
         margin-left: 20px;
+    }
+
+    .your-bookings {
+        border-top: 1px lightgray solid;
+        padding-top: 15px;
+        margin-right: 20px
+    }
+
+    .your-week {
+        border-top: 1px lightgray solid;
+        padding-top: 15px;
+    }
+
+    .your-jobs {
+        border-top: 1px lightgray solid;
+        padding-top: 15px;
     }
 
     .bookings-card {
@@ -602,10 +563,18 @@ body {
         display: block;
     }
 
-   
-
     .promo-area {
-        display:none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .promo-area button {
+        width: 90%;
+        justify-self: center;
+        /* margin-left: 200px; */
     }
    
    
@@ -648,92 +617,163 @@ body {
 }
 
 
-/* 
-@media screen and (min-width: 768px) {.content-container {
-    margin: 1.25rem;}
-
-@media screen and (min-width: 992px) {
-    .content-container {
-        margin-bottom: 1.5rem;}
-
-@media screen and 
-(max-width: 700px) 
-{
-    #hero .col {
-        width: 100%;}*/
 
 
 
+.side-menu-position {
+    padding-top: 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#hamburger-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.side-menu-design {
+    background-color: #00C2DA;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sidebar-background.png');
+    background-size: 1300px 700px;
+    background-repeat: repeat;
+    font-family: fabriga;
+    font-weight: 100;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    color: white;
+    transform: translateX(100%);
+    transition: 0.4s ease-in-out;
+}
 
 
-        .side-menu-position {
-            padding-top: 25px;
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 2;
-          }
-          
-          .side-menu-design {
-            background-color: #611f69;
-            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sidebar-background.png');
-            background-size: 1300px 700px;
-            background-repeat: repeat;
-            cursor: pointer;
-            opacity: 0;
-            transform: translateX(100%);
-            transition: 0.4s ease-in-out;
-          }
-          
-          /* on top we need spacing from the border, so we have to use padding */
-          /* but we also want that bottom margin to bleed to the edge, so no margins here */
-          .side-menu-header {
-            border-bottom: 1px solid rgba(255,255,255,.1); /* based on slack look, very faint */
-            display: flex;
-            justify-content: space-between;
-            padding: 0 25px 25px 25px;  
-          }
-          
-          /* Main content is pretty easy for layouts, pattern you'll see in web dev */
-          /* The more text an element has, the easier it is to layout - BAM wisdom bomb! */
-          .side-menu-content {
-            color: #fff;
-            font-size: 24px; /* could use ems here I guess but eh... */
-            margin: 25px;
-            padding-left: 0; /* zeroing it out */
-          }
-          
-          .side-menu-content li {
-            list-style: none;
-            margin-bottom: 25px;
-          }
-          
-          .side-menu-workspace {
-            margin-bottom: 8px;
-            text-align: center;
-          }
-          
-          .side-menu-download {
-            background-color: #fff;
-            color: #611f69;
-            padding: 15px 0;
-            text-align: center;
-            width: 100%;
-          }
-          
-          /* Sticks the nav to the top of the page */
-          #top-nav {
-            position: fixed;
-          }
-          
-          
-          /**
-           * Animation classes
-           */
-          .show-menu {
-            opacity: 1;
-            transform: translateX(0%);
-          }
-          
+.side-menu-header {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 25px 25px;  
+    }
+
+.side-menu-header div {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.side-menu-header h2 {
+    color: white;
+    padding-left: 20px;
+}
+
+.side-menu-content {
+    font-size: 24px; 
+    margin: 25px;
+    padding-left: 0; 
+}
+
+.side-menu-content li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.side-menu-content li:hover {
+    background-color: white;
+}
+
+.side-menu-workspace {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.side-menu-download {
+    background-color: #fff;
+    color: #00C2DA;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+    #top-nav {
+    position: fixed;
+}
+
+.show-menu {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+
+
+/* When there is no space between the selectors, it means both selectors have to be on the one element */
+/* We are doing this so we can reuse the .dropdown-menu properties on all menus but position them differently */
+.dropdown-menu {
+    z-index: 2;
+    /* position: fixed;
+    right: 0; */
+    text-align: right;
+    max-width: 200px;
+    /* position: absolute;
+    right: 0; */
+    /* position: absolute;
+    left: -500px; */
+    /* position: fixed;
+    left: 0;
+    top: 0;
+} */
+  
+/* .move {
+    margin: 200px;
+} */
+  
+  /* .dropdown-menu#menu-2 {
+    left: 290px;
+    min-width: 400px; /* to stretch the menu to match slack */
+  }
+  
+  /* .dropdown-menu#menu-3 {
+    left: 390px;
+    min-width: 400px; /* to stretch the menu to match slack */
+  } */ */
+  
+  .menu-header {
+    font-size: 12px;
+    /* margin: 0; */
+    /* padding: 0 10px 8px 10px; */
+    text-transform: uppercase;
+    text-align: center
+  }
+  
+  .menu-item-list {
+    /* margin: 0; */
+    padding-left: 0;
+    text-align: right;
+  }
+
+  /* #menu-2 .menu-item-list, 
+  #menu-3 .menu-item-list {
+    column-count: 2;
+    column-gap: 20px;
+  } */
+  
+  
+  .menu-item-list li a,
+  .menu-item-list li a:visited,
+  .menu-item-list li a:focus {
+    color: #454545;
+    display: block;
+    /* padding: 10px; */
+    text-decoration: none;
+  }
+  
+  .menu-item-list li a:hover {
+    background-color: rgb(242,242,242);
+    color: #1264a3;
+  }
+
+  .show {
+    display: block;
+  }
