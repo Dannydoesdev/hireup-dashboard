@@ -1,0 +1,562 @@
+<!-- 
+    yellow: #FEFCE5
+    Dark Blue: #0C3354
+    Grey (background): #F8F9F9
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="//db.onlinewebfonts.com/c/1a204cd3ccb7f25e06faa548e6251a59?family=Fabriga" rel="stylesheet"
+        type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/582590ffcc918623fde3bf6c123d36ba?family=Fabriga" rel="stylesheet"
+        type="text/css" />
+    <title>Hireup Dashboard - FEWD Final Project</title>
+</head>
+<header>
+    <div class="mobile-nav">
+        <img class="logo" src="img/logo.png">
+        <div>
+            <img class="mobile-nav-button" src="img/messages.png">
+            <img class="mobile-nav-button" src="img/hamburger.png">
+        </div>
+    </div>
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 all-nav">
+                <img class="logo main-nav" src="img/logo.png">
+
+                <ul class="main-nav nav-items">
+                    <li class="menu-1-button">Dashboard</li>
+                    <li class="menu-2-button">Search</li>
+                    <li class="menu-2-button">Bookings</li>
+                    <li class="menu-2-button">Job Board</li>
+                    <li class="menu-2-button">Hireup Learning</li>
+                </ul>
+                <div class="corner-nav main-nav">
+                    <img src="img/message-user-team-and-messages.png">
+                    <img src="img/main-dropdown.png">
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section class="notice level0">
+
+    </section>
+    <section class="container-fluid main-banner not-mobile" id="main-banner-id">
+        <div class="row">
+            <div class="col-sm-12 main-banner-custom">
+                <div class="banner-main-content">
+                    <img src="img/main-banner-caution-icon.png">
+                    <div>
+                        <h5>You still need to complete your Support Plan.</h5>
+                        <p>Don't worry - its easy to <a href="">access here.</a></p>
+                    </div>
+                    <div class="banner-buttons">
+                        <button class="blue-button">About Support Plans</button>
+                        <button class="white-button">Other Information</button>
+                    </div>
+                </div>
+                <!-- <a id="banner-close">
+                    . -->
+                <img id="banner-close" src="img/close-icon-top-banner.png">
+                <!-- </a> -->
+
+            </div>
+            <!-- <div class="col-sm-12">
+                <img src="img/main-banner.png">
+            </div> -->
+        </div>
+
+    </section>
+
+    <div class="container-fluid main-body-new">
+        <div class="row">
+            <div class="col-md-3 border">
+                <h2>Your team</h2>
+                <p>The people you support are added to your team. <span class="mobile-only" id="tap-to-open-team">Tap to
+                        slide down ⇩</span>
+                </p>
+                <ul class="your-team">
+                    <li class="your-team-quicklinks border">
+
+                        <div class="border">
+                            <img src="img/your-team-pic5.png">
+                            Anna B
+                        </div>
+
+
+                        <div class="border">
+                            <img src="img/message-user-team-and-messages.png">
+                            <img src="img/3-dots-team-left-column.png">
+                        </div>
+
+                    </li>
+                    <li class="your-team-quicklinks border">
+
+                        <div class="border">
+                            <img src="img/your-team-pic1.png">
+                            Steph J
+                        </div>
+
+
+                        <div class="border">
+                            <img src="img/message-user-team-and-messages.png">
+                            <img src="img/3-dots-team-left-column.png">
+                        </div>
+
+                    </li>
+                    <li class="your-team-quicklinks border">
+
+                        <div class="border">
+                            <img src="img/your-team-pic2.png">
+                            Andy E
+                        </div>
+
+
+                        <div class="border">
+                            <img src="img/message-user-team-and-messages.png">
+                            <img src="img/3-dots-team-left-column.png">
+                        </div>
+
+                    </li>
+                    <li class="your-team-quicklinks border">
+
+                        <div class="border">
+                            <img src="img/your-team-pic3.png">
+                            Simon M
+                        </div>
+
+
+                        <div class="border">
+                            <img src="img/message-user-team-and-messages.png">
+                            <img src="img/3-dots-team-left-column.png">
+                        </div>
+
+                    </li>
+                    <li class="your-team-quicklinks border">
+
+                        <div class="border">
+                            <img src="img/your-team-pic4.png">
+                            Jenny S
+                        </div>
+
+
+                        <div class="border">
+                            <img src="img/message-user-team-and-messages.png">
+                            <img src="img/3-dots-team-left-column.png">
+                        </div>
+
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-6 border your-bookings">
+                <h2>Your bookings</h2>
+                <p>All upcoming bookings. <span class="mobile-only" id="tap-to-open-bookings">Tap to
+                        slide down ⇩</span>
+                    <!-- <img class="booking-demo-pic" src="img/booking-panel-1.png"> -->
+                <div class="bookings-card border">
+                    <img class="bookings-card-profile-pic" src="img/your-bookings-profile-pic1.png">
+                    <div class="bookings-card-content border">
+                        <h3>Adrian M</h3>
+                        <p>Wed 13 Aug 8:00am - 12:00pm</p>
+                        <div class="bookings-bits border">
+                            <img src="img/booking-transport-icon.png">
+                            <p>transport required</p>
+                        </div>
+                    </div>
+                    <div class="booking-card-price-buttons">
+                        <h3>$55.05</h3>
+                        <div>
+                            <button class="blue-button">Review</button>
+                            <button class="white-button">Edit</button>
+                            <!-- <img src="img/review-booking-center-column.png">
+                            <img src="img/edit-booking-center-column.png"> -->
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class=your-week>
+                    <h2>Your week</h2>
+                    <div class="schedule">
+                        <p>Weekly/Monthly Schedule</p>
+                    </div>
+                </div>
+                <!-- <h2>Your availability</h2> -->
+                <div class="your-jobs">
+                    <h2>Your jobs</h2>
+                    <p>Jobs you created.</p>
+                    <div class="jobs-you-created">
+                        <ul>
+                            <li>I can help you improve your cooking skills in quarantine
+                                <br><span>Posted 30 minutes ago</span>
+                            </li>
+                            <li>Anyone keen to play basketball? I can provide transport within the inner West
+                                <br><span>Posted 2 hours ago</span>
+                            </li>
+                            <li>English & History major available for tutoring
+                                <br><span>Posted 10 hours ago</span>
+                            </li>
+                            <li>Looking for a weekend bushwalking buddy
+                                <br><span>Posted 2 days ago</span>
+                            </li>
+                            <li>Interested in checking out Scupltures by the sea
+                                <br><span>Posted 1 week ago</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 border your-info">
+                <h2>Your info</h2>
+                <p>Information just for you, from Hireup. <span class="mobile-only" id="tap-to-open-info">Tap to
+                        slide down ⇩</span>
+                <div class="">
+                    <!-- <img src="img/promo-1.png"> -->
+                    <!-- <h4>Level 4</h4>
+                    <p>Text goes here</p>
+                    <button>Feedback</button> -->
+                </div>
+                <div class="promo-area border">
+                    <img src="img/info-icon-right-column-banner.png">
+                    <h4>Hireup and COVID-19</h4>
+                    <p>Hireup is responding to keep our community safe and supported during COVID-19</p>
+                    <button class="blue-button">Safety Standards</button>
+                    <button class="white-button">Key Information</button>
+                    <button class="white-button">Approach to PPE</button>
+                </div>
+                <div class="promo-area border">
+                    <img src="img/promo-icon-right-column-banner.png">
+                    <h4>Share two hours of free support</h4>
+                    <p>If you know a person seeking support, why don't you invite them to join? They'll receive their
+                        first two hours of support for free.</p>
+                    <button class="blue-button">Refer a friend</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="">
+                    <h4>Your week</h4>
+                    <h4>Unread messages</h4>
+                    <h4>Recommended for you</h4>
+                </div>
+                <div>
+                    <img src="img/home.png">
+                    <h4>Home</h4>
+                </div>
+                <div>
+                    <img src="img/bookings.png">
+                    <h4>Your bookings</h4>
+                </div>
+                <div>
+                    <img src="img/team.png">
+                    <h4>Your team</h4>
+                </div>
+                <div>
+                    <img src="img/home.png">
+                    <h4>Your jobs</h4>
+                </div> -->
+    <!-- 
+        <div class="row">
+
+            <div class="col-lg-4">
+                <h2>Your team</h2>
+            </div>
+            <div class="col-lg-6">
+                <h2>Your Bookings</h2>
+            </div>
+            <div class="col-lg-4">
+                <h2>Your Info</h2>
+            </div>
+
+
+        </div> -->
+
+    <!-- <div class="row">
+
+        </div> -->
+
+
+
+
+    <!-- <section class="main-body">
+        <div class="column-left">
+            <h1>Home</h1>
+            <section class="notice level1">
+
+            </section>
+
+            <section class="main-quicklinks">
+                <div>
+                    <img src="img/home.png">
+                    <h4>Home</h4>
+                </div>
+                <div>
+                    <img src="img/bookings.png">
+                    <h4>Your bookings</h4>
+                </div>
+                <div>
+                    <img src="img/team.png">
+                    <h4>Your team</h4>
+                </div>
+                <div>
+                    <img src="img/home.png">
+                    <h4>Your jobs</h4>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="column-middle">
+            <div class="main-feed">
+                <h2>Your week</h2>
+                <h2>Unread messages</h2>
+                <h2>Recommended for you</h2>
+            </div>
+        </div>
+
+        <div class="column-right">
+            <div class="notice level4">
+                <h4>Level 4</h4>
+                <p>Text goes here</p>
+                <button>Feedback</button>
+            </div>
+        </div>
+
+    </section> -->
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Home</h1>
+                <section class=" notice level1">
+
+                    <div>
+                        <img src="img/home.png">
+                        <h4>Home</h4>
+                    </div>
+                    <div>
+                        <img src="img/bookings.png">
+                        <h4>Your bookings</h4>
+                    </div>
+                    <div>
+                        <img src="img/team.png">
+                        <h4>Your team</h4>
+                    </div>
+                    <div>
+                        <img src="img/home.png">
+                        <h4>Your jobs</h4>
+                    </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="">
+                    <h4>Level 4</h4>
+                    <p>Text goes here</p>
+                    <button>Feedback</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div> -->
+
+
+
+
+
+    <section class="mobile-body">
+        <h1>Home</h1>
+
+        <section class="notice level1">
+
+        </section>
+
+        <section class="mobile-quicklinks">
+            <div>
+                <img src="img/home.png">
+                <h4>Home</h4>
+            </div>
+            <div>
+                <img src="img/bookings.png">
+                <h4>Your bookings</h4>
+            </div>
+            <div>
+                <img src="img/team.png">
+                <h4>Your team</h4>
+                <!-- <div class="container-fluid main-body-new">
+                    <div class="row"> -->
+                <!-- <div class="col">
+                            <h2>Your team</h2>
+                            <p>The people you support are added to your team.</p>
+                            <ul class="your-team">
+                                <li class="your-team-quicklinks border">
+
+                                    <div class="border">
+                                        <img src="img/your-team-pic5.png">
+                                        Anna B
+                                    </div>
+
+
+                                    <div class="border">
+                                        <img src="img/message-user-team-and-messages.png">
+                                        <img src="img/3-dots-team-left-column.png">
+                                    </div>
+
+                                </li>
+                                <li class="your-team-quicklinks border">
+
+                                    <div class="border">
+                                        <img src="img/your-team-pic1.png">
+                                        Steph J
+                                    </div>
+
+
+                                    <div class="border">
+                                        <img src="img/message-user-team-and-messages.png">
+                                        <img src="img/3-dots-team-left-column.png">
+                                    </div>
+
+                                </li>
+                                <li class="your-team-quicklinks border">
+
+                                    <div class="border">
+                                        <img src="img/your-team-pic2.png">
+                                        Andy E
+                                    </div>
+
+
+                                    <div class="border">
+                                        <img src="img/message-user-team-and-messages.png">
+                                        <img src="img/3-dots-team-left-column.png">
+                                    </div>
+
+                                </li>
+                                <li class="your-team-quicklinks border">
+
+                                    <div class="border">
+                                        <img src="img/your-team-pic3.png">
+                                        Simon M
+                                    </div>
+
+
+                                    <div class="border">
+                                        <img src="img/message-user-team-and-messages.png">
+                                        <img src="img/3-dots-team-left-column.png">
+                                    </div>
+
+                                </li>
+                                <li class="your-team-quicklinks border">
+
+                                    <div class="border">
+                                        <img src="img/your-team-pic4.png">
+                                        Jenny S
+                                    </div>
+
+
+                                    <div class="border">
+                                        <img src="img/message-user-team-and-messages.png">
+                                        <img src="img/3-dots-team-left-column.png">
+                                    </div>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div> -->
+                <div>
+                    <img src="img/home.png">
+                    <h4>Your jobs</h4>
+                </div>
+        </section>
+
+        <section class="notice level2">
+
+        </section>
+
+        <section class="notice level2">
+
+        </section>
+
+        <section class="notice level3">
+
+        </section>
+
+        <section class="mobile-feed">
+            <h2>Your week</h2>
+            <h2>Unread messages</h2>
+            <h2>Recommended for you</h2>
+        </section>
+
+        <section class="notice level4">
+
+        </section>
+
+        <section class="notice level4">
+
+        </section>
+    </section>
+
+    <footer class="main-footer">
+        <div>
+            <img class="footer-logo" src="img/logo.png">
+        </div>
+
+        <div class="footer-links">
+            This is a footer yo
+        </div>
+    </footer>
+
+    <footer class="mobile-footer">
+        <div>
+            <img class="footer-logo" src="img/logo.png">
+        </div>
+
+        <div class="footer-links">
+
+        </div>
+
+    </footer>
+
+
+
+    <!--Side menu-->
+    <!-- <aside class="side-menu-position side-menu-design" id="side-menu">
+    <header class="side-menu-header">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/slack.svg" alt="Slack logo">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/x.svg" alt="Close this menu" id="menu-close">
+    </header>
+    <ul class="side-menu-content">
+      <li>Why Slack?</li>
+      <li>Pricing</li>
+      <li>About Us</li>
+      <li class="side-menu-workspace">Your Workspaces</li>
+      <li class="side-menu-download">Download Slack</li>
+    </ul>
+  </aside> -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
