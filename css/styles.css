@@ -33,8 +33,16 @@ h1, h2, h3, h4, h5, h6 {
     /* font-weight: 300; */
 }
 
+h2 {
+    font-size: 8px;
+}
+
 body {
     background-color: green;
+}
+
+.border {
+    border: none;
 }
 
 .main-nav {
@@ -56,7 +64,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: black 1px solid;
+    border: #0C3354 1px solid;
 }
 
 .mobile-nav div {
@@ -115,7 +123,7 @@ body {
         justify-content: space-between;
         align-items: center;
         height: 50px;
-        border: 1px black solid;
+        border: 1px #0C3354 solid;
     }
     .logo {
         width: 120px;
@@ -219,6 +227,10 @@ body {
     display: none;
 }  */
 
+.your-team-full {
+    margin-right: 10px;
+}
+
 .your-team {
     background-color: white;
 }
@@ -250,149 +262,90 @@ body {
 }
 
 
-    .main-body {
+.main-body {
       display:flex;
       /* justify-content: space-around;
       align-items: center; */
-    }
+}
 
-    .main-body-new {
+.main-body-new {
         display: block;
         /* margin-top: 20px; */
         padding-top: 20px;
         background-color: #F8F9F9;
-    }
+}
 
-    .schedule {
-        width: 90%;
+.schedule {
+        /* width: 90%; */
+        max-width: 800px;
         height: 50px;
         background-color: white;
         display: flex;
         align-items: center;
         text-align: center;
-        border: 1px lightgrey solid;
-    }
+       
+}
 
-    .schedule p {
-        /* line-height:80%; */
-        margin: 10px;
-    }
+.schedule p {
+    /* line-height:80%; */
+    margin: 10px;
+}
 
-    .your-week {
-        margin: 10px;
-    }
+.your-week {
+    /* margin: 10px; */
+    margin-left: 20px;
+    /* max-width: 900px; */
+    margin-top: 15px;
+    margin-right: 20px;
+}
 
-    .your-jobs {
-        margin: 10px;
-        margin-top: 20px;
-    }
+.your-jobs {
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 900px;
+    margin-right: 20px;
+}
 
-    .jobs-you-created {
-        /* border: 1px lightgrey solid; */
-        background-color: white;
-        /* padding-right: 10px; */
-        width: 90%;
-        /* height: 50px; */
-        background-color: white;
-        /* display: flex;
-        align-items: center;
-        text-align: center; */
-        border: 1px lightgrey solid;
-    }
+.jobs-you-created {
+    /* border: 1px lightgrey solid; */
+    background-color: white;
+    /* padding-right: 10px; */
+    /* width: 90%; */
+    max-width: 800px;
+    /* height: 50px; */
+    background-color: white;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    border: 1px lightgrey solid;
+}
 
-    .jobs-you-created li {
-        list-style: none;
-        padding: 5px 10px;
-        font-weight: bolder;
-        border-bottom: 0.5px lightgrey solid;
-    }
+.jobs-you-created li {
+    list-style: none;
+    padding: 5px 10px;
+    font-weight: bolder;
+    border-bottom: 0.5px lightgrey solid;
+}
 
-    .jobs-you-created span {
-        font-weight: normal;
-        font-style: italic;
-        font-size: 13px;
-    }
+.jobs-you-created span {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 13px;
+}
 
-    .column-left h1{
-        text-align: left;
-    }
-    
-    .mobile-body {
-        display: none;
-    }
+.column-left h1{
+    text-align: left;
+}
 
-    .mobile-feed {
-        display: none;
-    }
+.mobile-body {
+    display: none;
+}
+
+.mobile-feed {
+    display: none;
+}
 
 
-/* @media (min-width: 768px) {
-    .main-body {
-      display:flex;
-    }
-
-    .main-body-new {
-        display: block;
-        padding-top: 20px;
-        background-color: #F8F9F9;
-    }
-
-    .schedule {
-        width: 90%;
-        height: 50px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        border: 1px lightgrey solid;
-    }
-
-    .schedule p {
-        margin: 10px;
-    }
-
-    .your-week {
-        margin: 10px;
-    }
-
-    .your-jobs {
-        margin: 10px;
-        margin-top: 20px;
-    }
-
-    .jobs-you-created {
-        background-color: white;
-        width: 90%;
-        background-color: white;
-        border: 1px lightgrey solid;
-    }
-
-    .jobs-you-created li {
-        list-style: none;
-        padding: 5px 10px;
-        font-weight: bolder;
-        border-bottom: 0.5px lightgrey solid;
-    }
-
-    .jobs-you-created span {
-        font-weight: normal;
-        font-style: italic;
-        font-size: 13px;
-    }
-
-    .column-left h1{
-        text-align: left;
-    }
-    
-    .mobile-body {
-        display: none;
-    }
-
-    .mobile-feed {
-        display: none;
-    }
-
-} */
 
 .main-quicklinks {
     display: none;
@@ -425,11 +378,22 @@ body {
         width: 100%;
     } */
 
+    .your-bookings {
+        margin-left: 20px;
+    }
+
     .bookings-card {
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: white;
+        /* width: 95%; */
+        /* margin: 10px; */
+        margin-top: 20px;
+        /* margin-left: 10px; */
+        max-width: 800px;
+        /* min-width: 400px; */
+        margin-right: 20px;
     }
 
     .bookings-card h3 {
@@ -438,10 +402,10 @@ body {
     }
 
     .bookings-card-profile-pic {
-        /* height: 160px;
-        width: 160px; */
-        height: 25%;
-        width: 25%;
+        height: 160px;
+        width: 160px;
+        /* height: 25%;
+        width: 25%; */
         /* margin-left:30px;
         margin-right:-50px; */
     }
@@ -520,10 +484,7 @@ body {
         justify-content: space-around;
         text-align: left;
         position: relative;
-        padding-top: 20px;
-        padding-bottom:20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
         margin: 10px 0px;
         background-color: white;
     }
@@ -570,6 +531,39 @@ body {
 
 
 
+     @media (max-width: 1150px) {
+    .bookings-card-profile-pic {
+        display: none;
+    }
+
+    .bookings-card {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .banner-buttons {
+        display: none;
+    }
+
+    .banner-main-content {
+        justify-content: space-around;
+    }
+
+    #banner-info {
+        margin-right: -100px;
+    }
+
+    #banner-close {
+        margin-left: -150px;
+    }
+
+    .msg-team {
+        display: none;
+    }
+
+    }
+
+
 
 @media (max-width: 768px) {
    
@@ -584,6 +578,19 @@ body {
         display: none;
     }
 
+    .your-info {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    footer {
+        margin-left: 20px;
+    }
+
+    .your-team-full {
+        margin-left: 20px;
+    }
+
     .bookings-card {
         display: flex;
         justify-content: space-between;
@@ -591,9 +598,11 @@ body {
         background-color: white;
     }
 
-    .bookings-card {
-        display: none;
+    .bookings-card-profile-pic {
+        display: block;
     }
+
+   
 
     .promo-area {
         display:none;
@@ -606,8 +615,20 @@ body {
         display:none;
     }
 
-    @media (min-width: 768px) {
-    
+
+@media (max-width: 520px) {
+.bookings-card-profile-pic {
+    display: none;
+}
+}
+
+
+@media (min-width: 768px) {
+
+    .your-team {
+        display: block;
+    }
+
     .main-footer {
         display: block;
         height: 200px;
@@ -620,6 +641,7 @@ body {
     }
 
     }
+
   .footer-logo {
     width: 20%;
     height: 20%;
@@ -639,3 +661,79 @@ body {
 {
     #hero .col {
         width: 100%;}*/
+
+
+
+
+
+        .side-menu-position {
+            padding-top: 25px;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+          }
+          
+          .side-menu-design {
+            background-color: #611f69;
+            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sidebar-background.png');
+            background-size: 1300px 700px;
+            background-repeat: repeat;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: 0.4s ease-in-out;
+          }
+          
+          /* on top we need spacing from the border, so we have to use padding */
+          /* but we also want that bottom margin to bleed to the edge, so no margins here */
+          .side-menu-header {
+            border-bottom: 1px solid rgba(255,255,255,.1); /* based on slack look, very faint */
+            display: flex;
+            justify-content: space-between;
+            padding: 0 25px 25px 25px;  
+          }
+          
+          /* Main content is pretty easy for layouts, pattern you'll see in web dev */
+          /* The more text an element has, the easier it is to layout - BAM wisdom bomb! */
+          .side-menu-content {
+            color: #fff;
+            font-size: 24px; /* could use ems here I guess but eh... */
+            margin: 25px;
+            padding-left: 0; /* zeroing it out */
+          }
+          
+          .side-menu-content li {
+            list-style: none;
+            margin-bottom: 25px;
+          }
+          
+          .side-menu-workspace {
+            margin-bottom: 8px;
+            text-align: center;
+          }
+          
+          .side-menu-download {
+            background-color: #fff;
+            color: #611f69;
+            padding: 15px 0;
+            text-align: center;
+            width: 100%;
+          }
+          
+          /* Sticks the nav to the top of the page */
+          #top-nav {
+            position: fixed;
+          }
+          
+          
+          /**
+           * Animation classes
+           */
+          .show-menu {
+            opacity: 1;
+            transform: translateX(0%);
+          }
+          
