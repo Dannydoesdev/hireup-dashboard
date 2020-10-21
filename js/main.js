@@ -34,16 +34,5 @@ function sideMenuDisappears() {
 }
 
 
-// document.getElementById("dropdown-trigger").addEventListener("mouseover", menuOneShow);
-// document.getElementById("menu-1").addEventListener("mouseleave", menusHide);
-// function menuOneShow() {
-//     document.getElementById("menu-1").classList.add("show");
-// }
-
-// function menusHide() {
-//     document.getElementById("menu-1").classList.remove("show");
-
-// }
-
 
 

@@ -1,19 +1,13 @@
 
+@import url(//db.onlinewebfonts.com/c/1a204cd3ccb7f25e06faa548e6251a59?family=Fabriga);
+@import url(//db.onlinewebfonts.com/c/582590ffcc918623fde3bf6c123d36ba?family=Fabriga);
 
-/* 
-    yellow: #FEFCE5
-    Dark Blue: #0C3354
-    Grey (background): #F8F9F9 */
-
-    @import url(//db.onlinewebfonts.com/c/1a204cd3ccb7f25e06faa548e6251a59?family=Fabriga);
-    @import url(//db.onlinewebfonts.com/c/582590ffcc918623fde3bf6c123d36ba?family=Fabriga);
-
-    @font-face {font-family: "Fabriga"; src: url("//db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.eot"); 
+@font-face {font-family: "Fabriga"; src: url("//db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.eot"); 
         src: url("//db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.woff") format("woff"), url("//db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.svg#Fabriga") format("svg"); }
 
-     @font-face {font-family: "Fabriga-bold"; src: url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.eot"); src: url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.woff") format("woff"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.svg#Fabriga") format("svg"); }
+@font-face {font-family: "Fabriga-bold"; src: url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.eot"); src: url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.woff") format("woff"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/582590ffcc918623fde3bf6c123d36ba.svg#Fabriga") format("svg"); }
 
- p, li {
+p, li {
     color: #0C3354;
 }
 
@@ -202,7 +196,6 @@ body {
     margin-left: -30px;
 }
 
-
 .your-team img {
     width: 25px;
     height: 25px;
@@ -293,8 +286,6 @@ body {
     display: none;
 }
 
-
-
 .main-quicklinks {
     display: none;
 }
@@ -307,9 +298,7 @@ body {
 .mobile-quicklinks div {
     display: flex;
     align-items: center;
-
 }
-
 
 .main-quicklinks {
       display: flex;
@@ -320,7 +309,6 @@ body {
       left: 0;
     }
 
-
 .your-bookings {
     margin-left: 20px;
 }
@@ -330,7 +318,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-
     margin-top: 20px;
     max-width: 800px;
     margin-right: 20px;
@@ -338,7 +325,6 @@ body {
 
 .bookings-card h3 {
     font-size: 18px;
-
 }
 
 .bookings-card-profile-pic {
@@ -479,10 +465,6 @@ body {
         display: none;
     }
 
-    /* .your-info {
-        display: none;
-    } */
-
     .banner-main-content {
         justify-content: space-around;
     }
@@ -502,10 +484,7 @@ body {
     .menu-close-sml {
         display: none;
     }
-
-    }
-
-
+  }
 
 @media (max-width: 768px) {
    
@@ -576,24 +555,21 @@ body {
         justify-self: center;
         /* margin-left: 200px; */
     }
-   
-   
 }
 
-    .main-footer {
-        display:none;
-    }
+.main-footer {
+    display:none;
+}
 
 
 @media (max-width: 520px) {
 .bookings-card-profile-pic {
     display: none;
-}
+ }
 }
 
 
 @media (min-width: 768px) {
-
     .your-team {
         display: block;
     }
@@ -615,10 +591,6 @@ body {
     width: 20%;
     height: 20%;
 }
-
-
-
-
 
 .side-menu-position {
     padding-top: 25px;
@@ -707,48 +679,3 @@ body {
 }
 
 
-
-/* Unused dropdown menu */
-.dropdown-menu {
-    z-index: 2;
-    /* position: fixed;
-    right: 0; */
-    text-align: right;
-    max-width: 200px;
-   
-}
-  
-  
-.menu-header {
-    font-size: 12px;
-    /* margin: 0; */
-    /* padding: 0 10px 8px 10px; */
-    text-transform: uppercase;
-    text-align: center
-  }
-  
-  .menu-item-list {
-    /* margin: 0; */
-    padding-left: 0;
-    text-align: right;
-  }
-
-  
-  
-  .menu-item-list li a,
-  .menu-item-list li a:visited,
-  .menu-item-list li a:focus {
-    color: #454545;
-    display: block;
-    /* padding: 10px; */
-    text-decoration: none;
-  }
-  
-  .menu-item-list li a:hover {
-    background-color: rgb(242,242,242);
-    color: #1264a3;
-  }
-
-  .show {
-    display: block;
-  }
